@@ -52,15 +52,18 @@ export default function Homepage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showGallery, setShowGallery] = useState(false);
   
-  useEffect(() => {
-    if (status === "unauthenticated") {
-      router.push("/");
-    }
-  }, [status, router]);
+  const { status } = useSession(); // ✅ Correctly get status from useSession
 
-  if (status === "loading") {
-    return <p className="text-center mt-10">Loading...</p>;
+useEffect(() => {
+  if (status === "unauthenticated") {
+    router.push("/");
   }
+}, [status, router]);
+
+if (status === "loading") {
+  return <p className="text-center mt-10">Loading...</p>;
+}
+
 
   const filteredImages = images.filter((img) =>
     img.title.toLowerCase().includes(search.toLowerCase())
