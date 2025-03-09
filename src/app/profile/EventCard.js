@@ -4,19 +4,19 @@ import React from "react";
 
 const events = [
   {
-    image: "/CMpic.png",
+    image: "/cmpic.png",
     title: "CII Young Indians Conference",
     lastDownload: "02 Nov 2024",
     photoCount: 20,
   },
   {
-    image: "/CMpic.png",
+    image: "/cmpic.png",
     title: "Startup India Summit",
     lastDownload: "15 Jan 2025",
     photoCount: 35,
   },
   {
-    image: "/CMpic.png",
+    image: "/cmpic.png",
     title: "Tech Innovation Expo",
     lastDownload: "08 Mar 2025",
     photoCount: 50,
