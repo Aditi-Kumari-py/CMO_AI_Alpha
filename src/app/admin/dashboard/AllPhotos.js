@@ -15,12 +15,12 @@ const AllPhotos = () => {
     {
       name: "Mahtari Vandana Yojana",
       cover: "/F4.png",
-      images: ["/image4.jpg", "/image5.jpg", "/image6.jpg"],
+      images: ["/001.png", "/002.png", "/003.png", "/004.png", "/005.png", "/006.png"],
     },
     {
       name: "Mor Awas Mor Adhikar",
       cover: "/F4.png",
-      images: ["/image7.jpg", "/image8.jpg", "/image9.jpg"],
+      images: ["/001.png", "/002.png", "/003.png", "/004.png", "/005.png", "/006.png"],
     },
   ]);
 
