@@ -56,7 +56,7 @@ const AllPhotos = () => {
             className="flex justify-start items-end w-full h-[400px] border border-[#686868] rounded-[25px] p-4 cursor-pointer hover:shadow-lg transition mt-4"
           >
             <div className="flex flex-col items-start text-left pl-4">
-              <img src="/create_F.png" alt="Create Folder" className="w-[34px] h-[34px] mb-1" />
+              <img src="/Create_F.png" alt="Create Folder" className="w-[34px] h-[34px] mb-1" />
               <p className="text-[#170645] text-[18px] font-medium mt-4 mb-1">Create Event</p>
               <p className="text-[#686868] text-[14px] mt-1 mb-6">Example: New Event</p>
             </div>
