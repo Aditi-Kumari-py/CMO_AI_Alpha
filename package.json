@@ -13,8 +13,11 @@
     "@mobiscroll/react-lite": "^4.10.9",
     "axios": "^1.8.2",
     "dotenv": "^16.4.7",
+    "file-saver": "^2.0.5",
     "framer-motion": "^12.4.10",
     "glob": "^11.0.1",
+    "js-cookie": "^3.0.5",
+    "jszip": "^3.10.1",
     "lucide-react": "^0.475.0",
     "next": "^15.1.7",
     "next-auth": "^4.24.11",
@@ -26,9 +29,7 @@
     "react-native-date-picker": "^5.0.10",
     "recharts": "^2.15.1",
     "rimraf": "^6.0.1",
-    "uuid": "^11.0.5",
-    "jszip": "^3.10.1",
-    "js-cookie": "^3.0.5"
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
